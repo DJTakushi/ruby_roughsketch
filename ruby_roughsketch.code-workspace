@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+      {
+        "column": 80,
+        "color": "#80ffff"
+      },
+    ],
+    "editor.detectIndentation": false,
+  }
+}
