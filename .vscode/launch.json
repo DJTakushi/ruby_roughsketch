@@ -13,5 +13,11 @@
       "request": "launch",
       "program": "ruby ${workspaceFolder}/leetcode/1_two_sum/two_sum.rb"
     },
+    {
+      "type": "ruby_lsp",
+      "name": "Test two_sum",
+      "request": "launch",
+      "program": "ruby ${workspaceFolder}/leetcode/1_two_sum/test.rb"
+    },
   ]
 }
