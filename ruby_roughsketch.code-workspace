@@ -5,6 +5,7 @@
     }
   ],
   "settings": {
+    "workbench.colorTheme": "Tokyo Night",
     "editor.tabSize": 2,
     "editor.renderWhitespace": "all",
     "editor.rulers": [
