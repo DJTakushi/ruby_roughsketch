@@ -5,7 +5,9 @@
     }
   ],
   "settings": {
+		"window.autoDetectColorScheme": true,
     "workbench.colorTheme": "Tokyo Night",
+    "workbench.preferredLightColorTheme": "Visual Studio Light",
     "editor.tabSize": 2,
     "editor.renderWhitespace": "all",
     "editor.rulers": [
