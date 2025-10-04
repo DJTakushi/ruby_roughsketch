@@ -13,14 +13,13 @@ def time_rand from = 0.0, to = Time.now
   return out
 end
 
-def gencsv
+def gencsv(row_count)
   out = CSV.generate_line(["company name","date","description"])
 
-  out += CSV.generate_line([generate_code(10), time_rand(), generate_code(32)])
-  out += CSV.generate_line(['bar', '100'])
-  out += CSV.generate_line(['jiffy', 122])
-  out += CSV.generate_line(['ipsum lorem', 'm1 garand'])
-  return out
+  (1..row_count).each do |number|
+    out += CSV.generate_line([generate_code(10), time_rand(), generate_code(32)])
+  end
+    return out
 end
 
-File.write('out.csv', gencsv())
+File.write('out.csv', gencsv(8))
