@@ -16,7 +16,7 @@ end
 def gencsv
   out = CSV.generate_line(["company name","date","description"])
 
-  out += CSV.generate_line([generate_code(10), time_rand()])
+  out += CSV.generate_line([generate_code(10), time_rand(), generate_code(32)])
   out += CSV.generate_line(['bar', '100'])
   out += CSV.generate_line(['jiffy', 122])
   out += CSV.generate_line(['ipsum lorem', 'm1 garand'])
